@@ -1,0 +1,241 @@
+/* Configuración 
+
+color1: #F0A83E;
+color2: #222222;
+color3: #F3F3F3;
+color4: #3C2313;
+color5: #FBFAF6;
+color6: #8A8787;
+
+
+Tipografia: 'Roboto', sans-serif;
+
+*/
+
+/* Estilos Generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos del Header */
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header .topHeader {
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  color: #F3F3F3;
+}
+
+header .topHeader .idioma {
+  display: flex;
+}
+
+header .topHeader .idioma p {
+  margin: 0 12px;
+}
+
+header .bottomHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F0A83E;
+}
+
+header .bottomHeader img {
+  margin-left: 40px;
+  align-self: center;
+}
+
+header .bottomHeader .menu {
+  margin-right: 40px;
+}
+
+header .bottomHeader .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+header .bottomHeader .menu ul li {
+  margin: 24px 20px;
+}
+
+header .bottomHeader .menu ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header .bottomHeader .menu ul li i {
+  color: #FFFFFF;
+  margin: 0 2px;
+}
+
+/* Estilos del Main Sección Bienvenida*/
+
+main .bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("../img/bowl-and-pet-daities-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+main .bienvenida h2 {
+  background-color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 35px;
+}
+
+main .bienvenida p {
+  font-size: 18px;
+  color: #3C2313;
+  margin: 12px 120px 12px 0px;
+}
+
+main .bienvenida button {
+  padding: 15px 23px;
+  background-color: #F0A83E;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 135px;
+}
+
+/* Estilos del Main Sección Destacados*/
+
+main .destacados {
+  display: flex;
+  flex-direction: column;
+}
+
+main .destacados .titular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0px 40px;
+}
+
+main .destacados .titular i {
+  font-size: 100px;
+  color: #F0A83E;
+}
+
+main .destacados .titular h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3C2313;;
+  margin: 10px 0px 20px;
+}
+
+main .destacados .titular p {
+  font-size: 16px;
+  color: #222222;
+}
+
+main .destacados .productos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+main .destacados .productos .item {
+  text-align: center;
+  background-color: #FBFAF6;
+}
+
+main .destacados .productos .item h6 {
+  color: #3C2313;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main .destacados .productos .item p {
+  color: #F0A83E;
+  font-size: 16px;
+}
+
+/* Estilos del Footer */
+
+footer {
+  background-color: #3C2313;
+}
+
+footer .topFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .topFooter .datos {
+  display: flex;
+}
+
+footer .topFooter .datos .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+footer .topFooter .datos .icons i {
+  color: #F3F3F3;
+  font-size: 40px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #8A8787;
+  border-radius: 50px;
+}
+
+footer .topFooter .datos .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer .topFooter .datos .text .info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+footer .topFooter .datos .text .info h5 {
+  color: #F3F3F3;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer .topFooter .datos .text .info p {
+  color: #8A8787;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+footer .topFooter img {
+  align-self: center;
+  margin-right: 70px;
+} 
+
+footer .bottomFooter {
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #222222;
+}
