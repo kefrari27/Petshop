@@ -7,7 +7,6 @@ color4: #3C2313;
 color5: #FBFAF6;
 color6: #8A8787;
 
-
 Tipografia: 'Roboto', sans-serif;
 
 */
@@ -57,6 +56,10 @@ header .bottomHeader {
 header .bottomHeader img {
   margin-left: 40px;
   align-self: center;
+}
+
+header .bottomHeader i.fa-bars {
+  display: none;
 }
 
 header .bottomHeader .menu {
@@ -155,6 +158,7 @@ main .destacados .titular p {
 main .destacados .productos {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 70px;
 }
 
@@ -334,4 +338,67 @@ footer .bottomFooter {
   color: #FFFFFF;
   text-align: center;
   background-color: #222222;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 830px) {
+  /* Estilos del Main Sección Destacados */
+  main .destacados .productos .item {
+    margin: 10px;
+  }
+  /* Estilos del Main Seccion Suscribete */
+  main .suscribete {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .suscribete .invitacion {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 755px) {
+
+  /* Estilos de Menu tipo Hamburguesa */
+  header .bottomHeader .menu {
+    display: none;
+  }
+  header .bottomHeader i.fa-bars {
+    display: inline-block;
+    font-size: 30px;
+    color: #FFFFFF;
+    align-self: center;
+    margin: 15px 40px 15px 0px;
+  }
+  /* Estilos del Main seccion Contacto */
+  main .contacto form input {
+  width: 300px;
+  }
+  main .contacto .botones button {
+    margin: 0 5px;
+  }
+  /* Estilos del Main seccion Suscribete */
+  main .suscribete form input[type=email] {
+  width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos del Header */
+  header .topHeader {
+    display: none;
+  }
+  /* Estilos del Footer */
+  footer .topFooter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  footer .topFooter .datos {
+    order: 1;
+  }
+  footer .topFooter img {
+    margin: 10px 0px;
+  }
 }
