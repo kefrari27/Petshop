@@ -174,6 +174,102 @@ main .destacados .productos .item p {
   font-size: 16px;
 }
 
+/* Estilos del Main Sección Contacto */
+
+main .contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+main .contacto h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #3C2313;
+  margin-bottom: 20px;
+}
+
+main .contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+main .contacto form input {
+  width: 40%;
+  background-color: #3C2313;
+  font-size: 18px;
+  padding: 15px 0 15px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+main .contacto .botones {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+main .contacto .botones button[type=reset] {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #8A8787;
+  color: #FFFFFF;
+  padding: 8px 20px;
+  border-radius: 35px;
+}
+
+main .contacto .botones button[type=submit] {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #F0A83E;
+  color: #FFFFFF;
+  padding: 8px 20px;
+  border-radius: 35px;
+}
+
+/* Estilos de Main Sección Suscribete */
+
+main .suscribete {
+  display: flex;
+  justify-content: space-between;
+  background-color: #F0A83E;
+  padding: 20px;
+}
+
+main .suscribete .invitacion {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+main .suscribete .invitacion h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main .suscribete .invitacion i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+main .suscribete form input[type=email] {
+  background-color: #FFFFFF;
+  width: 350px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+main .suscribete form button[type=submit] {
+  background-color: #3C2313;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding: 10px;
+}
+
 /* Estilos del Footer */
 
 footer {
