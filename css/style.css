@@ -388,6 +388,20 @@ footer .bottomFooter {
   header .topHeader {
     display: none;
   }
+  /* Estilos del Main Seccion Destacados */
+  main .destacados .titular h1 {
+    font-size: 30px;
+  }
+  /* Estilos del Main Seccion Suscribete */
+  main .suscribete form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  main .suscribete form button {
+    margin: 5px;
+  }
   /* Estilos del Footer */
   footer .topFooter {
     display: flex;
@@ -400,5 +414,8 @@ footer .bottomFooter {
   }
   footer .topFooter img {
     margin: 10px 0px;
+  }
+  footer .bottomFooter p {
+    font-size: 10px;
   }
 }
